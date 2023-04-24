@@ -44,7 +44,7 @@ $brandingLabel = New-Object System.Windows.Forms.Label
 $brandingLabel.Location = New-Object System.Drawing.Point(70, 20)
 $brandingLabel.Size = New-Object System.Drawing.Size(360, 30)
 $brandingLabel.TextAlign = [System.Drawing.ContentAlignment]::TopCenter
-$brandingLabel.Text = "Qualitest Windows Upgrader Tool"
+$brandingLabel.Text = "Windows Upgrader Tool"
 $brandingLabel.Font = New-Object System.Drawing.Font("Arial", 12, [System.Drawing.FontStyle]::Bold)
 $form.Controls.Add($brandingLabel)
 
@@ -70,7 +70,7 @@ $outputBox.BackColor = [System.Drawing.Color]::DarkGray
 $outputBox.ForeColor = [System.Drawing.Color]::Black
 $outputBox.Font = New-Object System.Drawing.Font("Arial", 13)
 $outputBox.Padding = New-Object System.Windows.Forms.Padding(10)
-$outputBox.AppendText("$greeting! Welcome to the Qualitest Windows Upgrader Tool!!`n")
+$outputBox.AppendText("$greeting! Welcome to the Windows Upgrader Tool!!`n")
 $form.Controls.Add($outputBox)
 
 $downloadButton.Add_Click({
